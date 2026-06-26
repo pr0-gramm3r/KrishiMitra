@@ -1,0 +1,107 @@
+
+body{
+    background-color: var(--bg-secondary-color);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-tertiary-color);
+    padding: var(--padding-xl);
+    border-radius: var(--border-radius-m);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: var(--font-size-xxl);
+    font-weight: bold;  
+    color: var(--text-primary-color);
+    padding-bottom: var(--padding-s);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.field{
+    display: flex;
+    position: relative;
+    user-select: none;
+    flex-direction: column;
+    margin-bottom: var(--margin-s);
+    padding: var(--padding-m) 0;
+    transition: all 0.6s ease;
+
+}
+
+.field input {
+    border: none;
+    outline: none;
+    padding:  var(--padding-xs) var(--padding-s);
+    border-bottom: 3px solid var(--bg-active-color);
+    background-color: var(--bg-tertiary-color);
+    border-radius: var(--border-radius-s);
+    font-size: var(--font-size-x);
+}
+.field input::placeholder{
+    color: var(--text-secondary-color);
+}
+
+.field i,
+.field span{
+    position: absolute;
+    right: var(--gap-s);
+    pointer-events: none;
+}
+.field span{
+    margin : -7px -4px
+}
+
+#btn{
+    width: 100%;
+    border: none;
+    /* outline: none; */
+    padding: var(--padding-s) var(--padding-m);
+    margin: var(--margin-s) 0;
+    background-color: var(--bg-quaternary-color);
+    color: var(--text-quaternary-color);
+    font-size: var(--font-size-l);
+    border-radius: var(--border-radius-m);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: var(--bg-quinary-color);
+}
+
+#btn:active{
+    background-color: var(--bg-active-color);
+}
+
+.bottom{
+    color: var(--text-secondary-color);
+    text-align: center;   
+}
+
+.bottom a{
+    font-size: var(--font-size-m);
+    font-style: italic;
+    color: var(--text-primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}

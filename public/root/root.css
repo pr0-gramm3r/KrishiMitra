@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    /* Background Colors */
+    --bg-primary-color: #ffffff;
+    --bg-secondary-color: #ecffea;
+    --bg-tertiary-color: #b7b99c;
+    --bg-quaternary-color: #696a58;
+    --bg-quinary-color: #726923;
+    --bg-active-color: #008000;
+
+    /* Text Colors */
+    --text-primary-color: #171717;
+    --text-secondary-color: #242424;
+    --text-tertiary-color: #444b23;
+    --text-quaternary-color: #b7ba96;
+    --text-quinary-color: #ffffff;
+    --text-active-color: #008000;
+    --text-dark-active-color: #005f00;
+    
+    /* Border Colors */
+    --border-primary-color: #ccc;
+    --border-secondary-color: #ddd;
+
+    /* paddings */
+    --padding-xs: 0.25rem;
+    --padding-s: 0.5rem;
+    --padding-m: 0.75rem;
+    --padding-l: 1rem;
+    --padding-xl: 2rem;
+    --padding-xxl: 3rem;
+    
+    /* Margins */
+    --margin-xs: 0.25rem;
+    --margin-s: 0.5rem;
+    --margin-m: 1rem;
+    --margin-l: 1.5rem;
+    --margin-xl: 2rem;
+    --margin-xxl: 3rem;
+
+    /* Font Sizes */
+    --font-size-xs: 0.7rem;
+    --font-size-s: 1.10rem;
+    --font-size-m: 1.15rem;
+    --font-size-l: 1.25rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 3rem;
+
+    /* Gap */
+    --gap-s: 0.7rem;
+    --gap-m: 1rem;
+    --gap-l: 1.5rem;
+    --gap-xl: 2rem;
+    --gap-xxl: 3rem;
+
+    /* Border Radius */
+    --border-radius-s: 0.5rem;
+    --border-radius-m: 1rem;
+    --border-radius-l: 1.5rem;
+    --border-radius-xl: 2rem;
+    --border-radius-xxl: 5rem;
+
+}
