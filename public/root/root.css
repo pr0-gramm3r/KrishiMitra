@@ -32,6 +32,9 @@ html, body{
     --border-primary-color: #ccc;
     --border-secondary-color: #ddd;
 
+    /* Border */
+    --card-border-s: 2px solid rgba(128, 128, 128, 0.288);
+
     /* paddings */
     --padding-xs: 0.25rem;
     --padding-s: 0.5rem;
@@ -47,6 +50,11 @@ html, body{
     --margin-l: 1.5rem;
     --margin-xl: 2rem;
     --margin-xxl: 3rem;
+
+    /* width height */
+    --card-width-s: 350px;
+    --card-height-s: 400px;
+
 
     /* Font Sizes */
     --font-size-xs: 0.7rem;

@@ -78,7 +78,42 @@
             </div>
             <div class="right"><img src="{{ asset('asset/grid.png') }}" alt=""> Dashboard Overview</div>
         </div>
-        <div class="contents"></div>
+        <div class="contents">
+            <div class="weather-card">
+                <div class="top">
+                        <img src="{{ asset('asset/weather/sun-behind-cloud.png') }}" alt="sun behind cloud">
+                    <div class="right">
+                        <h3>Weather Forecast</h3>
+                        <p>New Delhi, India</p>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="left">
+                        <p class="celcius">32°c</p>
+                        <p>Partly Cloudy</p>
+                    </div>
+                    <div class="right">
+                        <img src="{{ asset('asset/weather/seasons-clouds.png') }}" alt="season's clouds">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="upper">
+                        <div class="humidity">
+                            <p>Humidity</p>
+                            <h4>62%</h4>
+                        </div>
+                        <div class="windSpeed">
+                            <p>Wind Speed</p>
+                            <h4>18 km/h</h4>
+                        </div>
+                        <div class="rainChance">
+                            <p>Rain Chance</p>
+                            <h4>10%</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </home>
 
     <script src="{{ asset('farmer/dashboard.js') }}"></script>
