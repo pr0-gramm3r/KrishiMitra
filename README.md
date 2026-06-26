@@ -172,6 +172,6 @@ If you like this project, consider giving it a ⭐ on GitHub.
 
 # 👨‍💻 Author
 
-**Ayush Kumar**
+**Kumar Ayush**
 
 Made with ❤️ using Laravel.
