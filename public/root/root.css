@@ -17,7 +17,7 @@ html, body{
     --bg-tertiary-color: #b7b99c;
     --bg-quaternary-color: #696a58;
     --bg-quinary-color: #726923;
-    --bg-active-color: #008000;
+    --bg-active-color: #004700;
 
     /* Text Colors */
     --text-primary-color: #171717;
@@ -25,7 +25,7 @@ html, body{
     --text-tertiary-color: #444b23;
     --text-quaternary-color: #b7ba96;
     --text-quinary-color: #ffffff;
-    --text-active-color: #008000;
+    --text-active-color: #004700;
     --text-dark-active-color: #005f00;
     
     /* Border Colors */
@@ -50,7 +50,7 @@ html, body{
 
     /* Font Sizes */
     --font-size-xs: 0.7rem;
-    --font-size-s: 1.10rem;
+    --font-size-s: 1rem;
     --font-size-m: 1.15rem;
     --font-size-l: 1.25rem;
     --font-size-xl: 2rem;

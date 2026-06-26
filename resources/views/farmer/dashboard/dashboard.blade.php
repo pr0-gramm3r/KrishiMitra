@@ -51,7 +51,7 @@
             <div class="moto">
                 <h1 id="up">Smart Farming</h1>
                 <h1 id="down">for Every Village</h1>
-                <p>Ai-Powered tools and real-time information to help farmers grow better,<br> and earn more.</p>
+                <p>Ai-Powered tools and real-time information to help farmers grow better, and earn more.</p>
                 <div class="btn">
                     <a id="get-started" href="#" >Get Started <i class="fas fa-arrow-right"></i></a>
                     <a id="explore" href="#">Explore Features <i class="fas fa-search"></i></a>
@@ -67,6 +67,16 @@
                     <p>Farmers across India</p>
                 </div>
             </div>
+        </div>
+        <div class="center">
+            <div class="left">
+                <img src="{{ asset('asset/plant.png') }}" alt="Plant image">
+                <div class="details">
+                    <h3>Namaste, Ramesh! 👋</h3>
+                    <p>Here's What's happening on your farm today.</p>
+                </div>
+            </div>
+            <div class="right"><img src="{{ asset('asset/grid.png') }}" alt=""> Dashboard Overview</div>
         </div>
         <div class="contents"></div>
     </home>
