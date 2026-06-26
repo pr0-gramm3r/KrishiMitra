@@ -51,40 +51,6 @@ The platform aims to assist farmers by providing digital solutions that improve 
 
 ---
 
-# 📸 Project Screenshots
-
-## 🏠 Home Page
-
-<p align="center">
-<img src="screenshots/home.png" width="850">
-</p>
-
----
-
-## 👨‍🌾 Dashboard
-
-<p align="center">
-<img src="screenshots/dashboard.png" width="850">
-</p>
-
----
-
-## 🌱 Farmer Panel
-
-<p align="center">
-<img src="screenshots/farmer-panel.png" width="850">
-</p>
-
----
-
-## 📱 Responsive View
-
-<p align="center">
-<img src="screenshots/mobile.png" width="300">
-</p>
-
----
-
 # 📂 Project Structure
 
 ```
