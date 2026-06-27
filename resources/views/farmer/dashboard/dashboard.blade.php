@@ -114,57 +114,61 @@
                     <div class="lower">
                         
                         <div class="sun">
-                            <p>sun</p>
+                            <p>Sun</p>
                             <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                         
                         <div class="mon">
-                            <p>mon</p>
+                            <p>Mon</p>
                             <img src="{{ asset('asset/google_weather_icons/mostly_cloudy.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                         
                         <div class="tue">
-                            <p>tue</p>
+                            <p>Tue</p>
                             <img src="{{ asset('asset/google_weather_icons/thunderstorms.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                         
                         <div class="wed">
-                            <p>wed</p>
+                            <p>Wed</p>
                             <img src="{{ asset('asset/google_weather_icons/heavy_rain.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                         
                         <div class="thu">
-                            <p>thu</p>
+                            <p>Thu</p>
                             <img src="{{ asset('asset/google_weather_icons/sunny_with_rain.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                         
                         <div class="fri">
-                            <p>fri</p>
+                            <p>Fri</p>
                             <img src="{{ asset('asset/google_weather_icons/mostly_clear.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                         
                         <div class="sat">
-                            <p>sat</p>
+                            <p>Sat</p>
                             <img src="{{ asset('asset/google_weather_icons/mostly_clear_day.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="corp-doctor">
+            <div class="crop-doctor">
                 <div class="top">
                     <img src="{{ asset('asset/card_icons/plant_health.png') }}" alt="Plant Health+">
-                    <h3>Crop Health Scanner</h3>
-                    <p>Scan your crop leaf</p>
+                    <div class="right">
+                        <h3>Crop Health Scanner</h3>
+                        <p>Scan your crop leaf</p>
+                    </div>
                 </div>
                 <div class="middle">
-                    <i class="fas fa-camera"></i>
+                    <div class="icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
                     <h4>Upload Leaf Image</h4>
                     <p>JPG, PNG up to 5MB</p>
                 </div>

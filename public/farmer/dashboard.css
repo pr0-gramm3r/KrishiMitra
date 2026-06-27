@@ -290,18 +290,20 @@ home .center .right img{
 
 home .contents{
     display: flex;
-    align-items: center;
-    margin: var(--margin-s);
+    flex-wrap: wrap;
+    gap: var(--gap-m);
+    margin: var(--margin-m);
 }
 
+/* weather card */
+
 home .contents .weather-card{
-    width: var(--card-width-m);
-    height: var(--card-height-m);
+    width: var(--card-width-s);
+    height: var(--card-height-s);
     display: flex;
     flex-direction: column;
     padding: var(--padding-m);
-    margin: var(--margin-s);
-    border: var(--card-border-s);
+     border: var(--card-border-s);
     border-radius: var(--border-radius-m);
 }
 
@@ -320,7 +322,7 @@ home .contents .weather-card .top img{
 home .contents .weather-card .middle{
     display: flex;
     justify-content: space-between;
-    margin: var(--margin-m) 0;
+    margin: var(--margin-xs) 0;
 }
 
 home .contents .weather-card .middle .left{
@@ -351,16 +353,10 @@ home .contents .weather-card .bottom{
 }
 
 home .contents .weather-card .bottom .upper{
-    padding: var(--padding-l) var(--padding-l);
+    padding: var(--padding-s) 0;
     display: flex;
     width: 100%;
     justify-content: space-between;   
-}
-
-home .contents .weather-card .bottom .upper .windSpeed{
-    border-right: var(--card-border-s) ;
-    border-left: var(--card-border-s) ;
-    padding: 0 var(--padding-xl);   
 }
 
 home .contents .weather-card .bottom .lower{
@@ -368,13 +364,13 @@ home .contents .weather-card .bottom .lower{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: var(--margin-xl) 0;
+    margin-top: var(--margin-m);
 }
 
 home .contents .weather-card .bottom .lower p{
     display: flex;
     justify-content: center;
-    margin: var(--margin-s) 0;
+    font-size: var(--font-size-xs);
 }
 
 home .contents .weather-card .bottom .lower img{
@@ -382,3 +378,59 @@ home .contents .weather-card .bottom .lower img{
     height: 40px;
     border-radius: 50%;
 }
+
+/* Crop Doctor Card */
+
+home .contents .crop-doctor{
+    width: var(--card-width-s);
+    height: var(--card-height-s);
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-m);
+    border: var(--card-border-s);
+    border-radius: var(--border-radius-m);
+}
+
+home .contents .crop-doctor .top{
+    display: flex;
+    align-items: center;
+}
+
+home .contents .crop-doctor .top img{
+    width: 50px;
+    height: 50px;
+    border-radius: var(--border-radius-s);
+}
+
+home .contents .crop-doctor .top .right{
+    display: flex;
+    flex-direction: column;
+}
+
+home .contents .crop-doctor .middle{
+    height: 60%;
+    margin: var(--margin-m) 0;
+    border: 2px dashed #80808049;
+    border-radius: var(--border-radius-m);
+    gap: var(--gap-s);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+home .contents .crop-doctor .middle .icon{
+    width: 70px;
+    height: 70px;
+    background-color: var(--bg-secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+home .contents .crop-doctor .middle i{ 
+    font-size: var(--font-size-xl);
+    color: var(--text-light-active-color);
+}
+home .contents .crop-doctor .middle h4

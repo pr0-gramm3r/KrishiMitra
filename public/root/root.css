@@ -26,14 +26,14 @@ html, body{
     --text-quaternary-color: #b7ba96;
     --text-quinary-color: #ffffff;
     --text-active-color: #004700;
-    --text-dark-active-color: #005f00;
+    --text-light-active-color: #009000;
     
     /* Border Colors */
     --border-primary-color: #ccc;
     --border-secondary-color: #ddd;
 
     /* Border */
-    --card-border-s: 2px solid rgba(128, 128, 128, 0.288);
+    --card-border-s: 2px solid #80808049;
 
     /* paddings */
     --padding-xs: 0.25rem;
@@ -52,9 +52,9 @@ html, body{
     --margin-xxl: 3rem;
 
     /* width height */
-    --card-width-s: 350px;
+    --card-width-s: 320px;
     --card-width-m: 450px;
-    --card-height-s: 350px;
+    --card-height-s: 320px;
     --card-height-m: 400px;
 
 
