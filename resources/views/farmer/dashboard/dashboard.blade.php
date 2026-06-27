@@ -18,7 +18,7 @@
 <body>
     <navbar>
         <div class="logo">
-            <img src="{{ asset('asset/icon.png') }}" alt="">
+            <img src="{{ asset('asset/icons/icon.png') }}" alt="">
             <h3>KrishiMitra</h3>
             <p>AI</p>
         </div>
@@ -59,7 +59,7 @@
             </div>
             <div class="trust-card">
                 <div class="emblem">
-                    <img src="{{ asset('asset/icon.png') }}" alt="Loading...">
+                    <img src="{{ asset('asset/icons/icon.png') }}" alt="Loading...">
                 </div>
                 <div class="desc">
                     <p>Trusted by</p>
@@ -70,13 +70,13 @@
         </div>
         <div class="center">
             <div class="left">
-                <img src="{{ asset('asset/plant.png') }}" alt="Plant image">
+                <img src="{{ asset('asset/card_icons/plant.png') }}" alt="Plant image">
                 <div class="details">
                     <h3>Namaste, Ramesh! 👋</h3>
                     <p>Here's What's happening on your farm today.</p>
                 </div>
             </div>
-            <div class="right"><img src="{{ asset('asset/grid.png') }}" alt=""> Dashboard Overview</div>
+            <div class="right"><img src="{{ asset('asset/card_icons/grid.png') }}" alt=""> Dashboard Overview</div>
         </div>
         <div class="contents">
             <div class="weather-card">
@@ -155,6 +155,21 @@
                             <p>32°/24°</p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="corp-doctor">
+                <div class="top">
+                    <img src="{{ asset('asset/card_icons/plant_health.png') }}" alt="Plant Health+">
+                    <h3>Crop Health Scanner</h3>
+                    <p>Scan your crop leaf</p>
+                </div>
+                <div class="middle">
+                    <i class="fas fa-camera"></i>
+                    <h4>Upload Leaf Image</h4>
+                    <p>JPG, PNG up to 5MB</p>
+                </div>
+                <div class="down">
+                    <h4>View Diagnosis History</h4>
                 </div>
             </div>
         </div>
