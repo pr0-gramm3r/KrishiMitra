@@ -127,31 +127,31 @@
                         
                         <div class="tue">
                             <p>tue</p>
-                            <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
+                            <img src="{{ asset('asset/google_weather_icons/thunderstorms.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                         
                         <div class="wed">
                             <p>wed</p>
-                            <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
+                            <img src="{{ asset('asset/google_weather_icons/heavy_rain.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                         
                         <div class="thu">
                             <p>thu</p>
-                            <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
+                            <img src="{{ asset('asset/google_weather_icons/sunny_with_rain.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                         
                         <div class="fri">
                             <p>fri</p>
-                            <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
+                            <img src="{{ asset('asset/google_weather_icons/mostly_clear.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                         
                         <div class="sat">
                             <p>sat</p>
-                            <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
+                            <img src="{{ asset('asset/google_weather_icons/mostly_clear_day.png') }}" alt="">
                             <p>32°/24°</p>
                         </div>
                     </div>

@@ -53,7 +53,9 @@ html, body{
 
     /* width height */
     --card-width-s: 350px;
-    --card-height-s: 400px;
+    --card-width-m: 450px;
+    --card-height-s: 350px;
+    --card-height-m: 400px;
 
 
     /* Font Sizes */

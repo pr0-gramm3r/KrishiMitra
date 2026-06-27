@@ -1,3 +1,4 @@
+/* navbar */
 navbar{
     display: flex;
     justify-content: space-between;
@@ -91,6 +92,8 @@ navbar .account-utilities .account a{
     cursor: pointer;
 }
 
+/* home */
+
 home{
     display: flex;
     flex-direction: column;
@@ -129,7 +132,6 @@ home .top #farmer{
     backdrop-filter: 0 0 20px white;
     border-radius: 50%;
 } */
-
 
 home .moto{
     position: absolute;
@@ -293,13 +295,14 @@ home .contents{
 }
 
 home .contents .weather-card{
-    width: var(--card-width-s);
-    height: var(--card-height-s);
+    width: var(--card-width-m);
+    height: var(--card-height-m);
     display: flex;
     flex-direction: column;
     padding: var(--padding-m);
     margin: var(--margin-s);
     border: var(--card-border-s);
+    border-radius: var(--border-radius-m);
 }
 
 home .contents .weather-card .top{
@@ -348,7 +351,7 @@ home .contents .weather-card .bottom{
 }
 
 home .contents .weather-card .bottom .upper{
-    margin: var(--margin-m) 0;
+    padding: var(--padding-l) var(--padding-l);
     display: flex;
     width: 100%;
     justify-content: space-between;   
@@ -357,5 +360,25 @@ home .contents .weather-card .bottom .upper{
 home .contents .weather-card .bottom .upper .windSpeed{
     border-right: var(--card-border-s) ;
     border-left: var(--card-border-s) ;
-    padding: 0 var(--padding-l);
+    padding: 0 var(--padding-xl);   
+}
+
+home .contents .weather-card .bottom .lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: var(--margin-xl) 0;
+}
+
+home .contents .weather-card .bottom .lower p{
+    display: flex;
+    justify-content: center;
+    margin: var(--margin-s) 0;
+}
+
+home .contents .weather-card .bottom .lower img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
