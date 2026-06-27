@@ -81,7 +81,7 @@
         <div class="contents">
             <div class="weather-card">
                 <div class="top">
-                        <img src="{{ asset('asset/weather/sun-behind-cloud.png') }}" alt="sun behind cloud">
+                        <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="sun behind cloud">
                     <div class="right">
                         <h3>Weather Forecast</h3>
                         <p>New Delhi, India</p>
@@ -93,7 +93,7 @@
                         <p>Partly Cloudy</p>
                     </div>
                     <div class="right">
-                        <img src="{{ asset('asset/weather/seasons-clouds.png') }}" alt="season's clouds">
+                        <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="season's clouds">
                     </div>
                 </div>
                 <div class="bottom">
@@ -109,6 +109,50 @@
                         <div class="rainChance">
                             <p>Rain Chance</p>
                             <h4>10%</h4>
+                        </div>
+                    </div>
+                    <div class="lower">
+                        
+                        <div class="sun">
+                            <p>sun</p>
+                            <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
+                            <p>32°/24°</p>
+                        </div>
+                        
+                        <div class="mon">
+                            <p>mon</p>
+                            <img src="{{ asset('asset/google_weather_icons/mostly_cloudy.png') }}" alt="">
+                            <p>32°/24°</p>
+                        </div>
+                        
+                        <div class="tue">
+                            <p>tue</p>
+                            <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
+                            <p>32°/24°</p>
+                        </div>
+                        
+                        <div class="wed">
+                            <p>wed</p>
+                            <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
+                            <p>32°/24°</p>
+                        </div>
+                        
+                        <div class="thu">
+                            <p>thu</p>
+                            <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
+                            <p>32°/24°</p>
+                        </div>
+                        
+                        <div class="fri">
+                            <p>fri</p>
+                            <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
+                            <p>32°/24°</p>
+                        </div>
+                        
+                        <div class="sat">
+                            <p>sat</p>
+                            <img src="{{ asset('asset/google_weather_icons/partly_cloudy.png') }}" alt="">
+                            <p>32°/24°</p>
                         </div>
                     </div>
                 </div>
