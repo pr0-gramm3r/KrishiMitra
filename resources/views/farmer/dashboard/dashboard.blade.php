@@ -176,6 +176,7 @@
                     <h4>View Diagnosis History</h4>
                 </div>
             </div>
+            <div class="mandi-prices"></div>
         </div>
     </home>
 

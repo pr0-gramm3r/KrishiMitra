@@ -433,4 +433,17 @@ home .contents .crop-doctor .middle i{
     font-size: var(--font-size-xl);
     color: var(--text-light-active-color);
 }
-home .contents .crop-doctor .middle h4
+
+home .contents .crop-doctor .middle h4{
+    color: var(--text-active-color);
+}
+
+home .contents .crop-doctor .down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-secondary-color);
+    padding: var(--padding-m);
+    border-radius: var(--border-radius-m);
+    color: var(--text-active-color);
+}
