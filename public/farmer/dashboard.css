@@ -417,6 +417,7 @@ home .contents .crop-doctor .middle{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    user-select: none;
 }
 
 home .contents .crop-doctor .middle .icon{
@@ -442,8 +443,14 @@ home .contents .crop-doctor .down {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--bg-secondary-color);
+    background-color: var(--bg-primary-color);
     padding: var(--padding-m);
     border-radius: var(--border-radius-m);
     color: var(--text-active-color);
+    cursor: pointer;
+    user-select: none;
+}
+
+home .contents .crop-doctor .down:hover{
+    background-color: var(--bg-secondary-color);
 }
