@@ -27,6 +27,13 @@ html, body{
     --text-quinary-color: #ffffff;
     --text-active-color: #004700;
     --text-light-active-color: #009000;
+
+    /* Special colors */
+    --color-success: green;
+    --color-warning: orange;
+    --color-info: skyblue;
+    --color-danger: red;
+
     
     /* Border Colors */
     --border-primary-color: #ccc;
@@ -67,6 +74,7 @@ html, body{
     --font-size-xxl: 3rem;
 
     /* Gap */
+    --gap-xs: 0.25rem;
     --gap-s: 0.7rem;
     --gap-m: 1rem;
     --gap-l: 1.5rem;

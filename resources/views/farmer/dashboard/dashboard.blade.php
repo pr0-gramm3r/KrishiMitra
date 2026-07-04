@@ -176,7 +176,74 @@
                     <h4>View Diagnosis History</h4>
                 </div>
             </div>
-            <div class="mandi-prices"></div>
+            <div class="mandi-prices">
+                <div class="top">
+                    <img src="{{ asset('asset/card_icons/mandi-live.jpg') }}" alt="mandi live">
+                    <div class="right">
+                        <h3>Live Mandi Prices</h3>
+                        <p>Today's Prices</p>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="wheat row-data up-border">
+                        <div class="row-data">
+                            <h4>Wheat</h4>
+                            <p>(गेहूं)</p>
+                        </div>    
+                        <div class="row-data">
+                            <h4>₹2,125</h4>
+                            <p>/quintal</p>
+                        </div>
+                        <div class="mandi-percentage profit">
+                            <i class="fas fa-sort-up"></i>
+                            2.3%
+                        </div>
+                    </div>
+                    <div class="paddy row-data up-border">
+                       <div class="row-data">
+                            <h4>Paddy</h4>
+                            <p>(धान)</p>
+                        </div>    
+                        <div class="row-data">
+                            <h4>₹1,860</h4>
+                            <p>/quintal</p>
+                        </div>
+                        <div class="mandi-percentage profit">
+                            <i class="fas fa-sort-up"></i>
+                            1.8%
+                        </div>
+                    </div>
+                    <div class="cotton row-data up-border">
+                        <div class="row-data">
+                            <h4>Cotton</h4>
+                            <p>(कपास)</p>
+                        </div>    
+                        <div class="row-data">
+                            <h4>₹6,540</h4>
+                            <p>/quintal</p>
+                        </div>
+                        <div class="mandi-percentage loss" style="align-items:center ">
+                            <i class="fas fa-sort-down" ></i>
+                            1.2%
+                        </div>
+                    </div>
+                    <div class="mustard row-data up-border">
+                        <div class="row-data">
+                            <h4>Mustard</h4>
+                            <p>(सरसों)</p>
+                        </div>    
+                        <div class="row-data">
+                            <h4>₹5,125</h4>
+                            <p>/quintal</p>
+                        </div>
+                        <div class="mandi-percentage profit">
+                            <i class="fas fa-sort-up"></i>
+                            0.7%
+                        </div>
+                    </div>
+                </div>
+                <div class="down"></div>
+            </div>
         </div>
     </home>
 
