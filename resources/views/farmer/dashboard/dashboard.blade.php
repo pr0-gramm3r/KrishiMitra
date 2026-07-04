@@ -242,6 +242,35 @@
                         </div>
                     </div>
                 </div>
+                <div class="down">
+                    <h4>View All Prices</h4>
+                </div>
+            </div>
+            <div class="government-alerts">
+                <div class="top">
+                    <i class="far fa-bell"></i>
+                    <div class="right">
+                        <h3>Government Alerts</h3>
+                        <p>Stay Updated</p>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="kisan-yojana">
+                        <h4>PM Kisan Yojana</h4>
+                        <p>₹2000 installment released <br>15 June 2024</p>
+                    </div>
+
+                    <div class="insurance">
+                        <h4>Crop Insurance Scheme</h4>
+                        <p>Last date to apply: 30 June 2024</p>
+                    </div>
+
+                    <div class="soil-health-card">
+                        <h4>Soil Health Card</h4>
+                        <p>Free soil testing camp in your area</p>
+                    </div>
+
+                </div>
                 <div class="down"></div>
             </div>
         </div>

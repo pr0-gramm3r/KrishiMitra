@@ -290,8 +290,7 @@ home .center .right img{
 
 home .contents{
     display: flex;
-    flex-wrap: wrap;
-    gap: var(--gap-m);
+    justify-content: space-between;
     margin: var(--margin-m);
 }
 
@@ -488,8 +487,16 @@ home .contents .mandi-prices .middle p{
     font-size: var(--font-size-xs);
 }
 
+home .contents .mandi-prices .middle .profit{
+    color:var(--color-success);
+}
+
+home .contents .mandi-prices .middle  .loss{
+    color:var(--color-danger);
+}
+
 home .contents .mandi-prices .middle .up-border{
-    padding: var(--padding-l) var(--padding-s);
+    padding: var(--padding-s);
     border-top: var(--card-border-s);
 }
 
@@ -511,12 +518,28 @@ home .contents .mandi-prices .middle .mandi-percentage i{
     align-self: center ;
 }
 
-home .contents .mandi-prices .middle .profit{
-    color:var(--color-success);
+home .contents .mandi-prices .down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-primary-color);
+    padding: var(--padding-m);
+    border-radius: var(--border-radius-m);
+    color: var(--text-active-color);
+    cursor: pointer;
+    user-select: none;
 }
 
-home .contents .mandi-prices .middle  .loss{
-    color:var(--color-danger);
-
+home .contents .mandi-prices .down:hover{
+    background-color: var(--bg-secondary-color);
 }
 
+home .contents .government-alerts{
+    width: var(--card-width-s);
+    height: var(--card-height-s);
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-m);
+    border: var(--card-border-s);
+    border-radius: var(--border-radius-m);
+}
