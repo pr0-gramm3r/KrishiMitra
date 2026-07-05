@@ -255,23 +255,34 @@
                     </div>
                 </div>
                 <div class="middle">
-                    <div class="kisan-yojana">
-                        <h4>PM Kisan Yojana</h4>
-                        <p>₹2000 installment released <br>15 June 2024</p>
+                    <div class="kisan-yojana row-space">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <div class="right">
+                            <h4>PM Kisan Yojana</h4>
+                            <p>₹2000 installment released <br>15 June 2024</p>
+                        </div>
                     </div>
 
-                    <div class="insurance">
-                        <h4>Crop Insurance Scheme</h4>
-                        <p>Last date to apply: 30 June 2024</p>
+                    <div class="insurance row-space">
+                        <i class="fas fa-users"></i>
+                        <div class="right">
+                            <h4>Crop Insurance Scheme</h4>
+                            <p>Last date to apply: 30 June 2024</p>
+                        </div>
                     </div>
 
-                    <div class="soil-health-card">
-                        <h4>Soil Health Card</h4>
-                        <p>Free soil testing camp in your area</p>
+                    <div class="soil-health-card row-space">
+                        <i class="fas fa-user-shield"></i>
+                        <div class="right">
+                            <h4>Soil Health Card</h4>
+                            <p>Free soil testing camp in your area</p>
+                        </div>
                     </div>
 
                 </div>
-                <div class="down"></div>
+                <div class="down">
+                   <h4>View All Schemes</h4> 
+                </div>
             </div>
         </div>
     </home>
