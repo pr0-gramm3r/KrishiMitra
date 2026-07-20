@@ -575,7 +575,10 @@ home .contents .government-alerts .middle .row-space{
     cursor: pointer;
 }
 
-home .contents .government-alerts .middle .row-space:hover i,
+home .contents .government-alerts .middle .row-space i{
+color: var(--text-active-color);
+}   
+
 home .contents .government-alerts .middle .row-space:hover h4{
 
     color: var(--text-active-color);

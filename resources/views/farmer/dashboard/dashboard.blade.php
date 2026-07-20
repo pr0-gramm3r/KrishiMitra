@@ -256,7 +256,7 @@
                 </div>
                 <div class="middle">
                     <div class="kisan-yojana row-space">
-                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-seedling"></i>
                         <div class="right">
                             <h4>PM Kisan Yojana</h4>
                             <p>₹2000 installment released <br>15 June 2024</p>

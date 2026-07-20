@@ -1,6 +1,6 @@
 
 body{
-    background-color: var(--bg-secondary-color);
+    background-color: var(--bg-primary-color);
 }
 
 main{
@@ -14,10 +14,10 @@ main{
     width: 400px;
     display: flex;
     flex-direction: column;
-    background-color: var(--bg-tertiary-color);
+    background-color: var(--bg-secondary-color);
     padding: var(--padding-xl);
     border-radius: var(--border-radius-m);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .top{
@@ -52,7 +52,7 @@ main{
     outline: none;
     padding:  var(--padding-xs) var(--padding-s);
     border-bottom: 3px solid var(--bg-active-color);
-    background-color: var(--bg-tertiary-color);
+    background-color: var(--bg-secondary-color);
     border-radius: var(--border-radius-s);
     font-size: var(--font-size-x);
 }
