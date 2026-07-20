@@ -284,9 +284,37 @@
                    <h4>View All Schemes</h4> 
                 </div>
             </div>
+            <div class="lineChart">
+                <div class="top">
+                    <h2>Mandi Price Trend</h2>
+                    <select name="item" >
+                        <option>Wheat</option>
+                        <option>Rice</option>
+                        <option>Corn</option>
+                        <option>Barley</option>
+                    </select>
+                </div>
+                <canvas id = "MarketPriceTrend">
+                </canvas>
+            </div>
+            <div class="tips">
+                <div class="top">
+                    <i class="fas fa-info"></i>
+                    <h3>Smart Tips for You</h3>
+                </div>
+                <div class="middle">
+                    <p>Irrigate your wheat crop early morning for best results.</p>
+                    <p>Use organic pesticides to protect crops from pests.</p>
+                    <p>Check weather updates before planning irrigation.</p>
+                </div>
+                <div class="down">
+                   <h4>View All Schemes</h4>
+                </div>
+            </div>
         </div>
     </home>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <script src="{{ asset('farmer/dashboard.js') }}"></script>
 </body>
 </html>

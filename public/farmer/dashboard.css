@@ -291,6 +291,7 @@ home .center .right img{
 home .contents{
     display: flex;
     justify-content: space-between;
+    flex-wrap:wrap;
     margin: var(--margin-m);
 }
 
@@ -604,4 +605,77 @@ home .contents .government-alerts .down {
 
 home .contents .government-alerts .down:hover{
     background-color: var(--bg-secondary-color);
+}
+
+home .contents .lineChart{
+    display: flex;
+    flex-direction: column;
+    margin: var(--margin-m) 0;
+    box-shadow: var(--shadow);
+    padding: var(--padding-s) var(--padding-m);
+    width: 60%;
+    gap: var(--gap-m);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+home .contents .lineChart .top select{
+    height: 44px;
+    user-select: none;
+    cursor: pointer;
+    padding: var(--padding-m);
+    border-radius: var(--border-radius-s);
+    background: transparent;
+    font-size: var(--font-size-s);
+    color: #333;
+    font-weight: 500;
+}
+
+
+home .contents .tips .down:hover{
+    background-color: var(--bg-secondary-color);
+}
+
+home .contents .tips{
+    width: var(--card-width-m);
+    height: var(--card-height-s);
+    margin-top: var(--margin-m);
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-m);
+    border: var(--card-border-s);
+    border-radius: var(--border-radius-m);
+}
+
+home .contents .tips .top{
+    display: flex;
+    align-items: center;
+    gap: var(--gap-m);
+    margin-bottom: var(--margin-m);
+}
+
+home .contents .tips .top i{
+    width: 50px;
+    height: 50px;
+    font-size: var(--font-size-xl);
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--text-active-color);
+    background-color: var(--bg-secondary-color);
+    border-radius: var(--border-radius-m);
+}
+
+home .contents .tips .down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-primary-color);
+    padding: var(--padding-m);
+    border-radius: var(--border-radius-m);
+    color: var(--text-active-color);
+    cursor: pointer;
+    user-select: none;
 }
